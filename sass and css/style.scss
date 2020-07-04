@@ -1,0 +1,107 @@
+body, html {
+    margin: 0;
+    background-color: black;
+}
+  .bg {
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  div{
+      display: block;
+  }
+@import './def';
+@font-face{
+    font-family: abc;
+    src: url(GABRWFFR.TTF);
+}
+#title{
+    font-family: cursive;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: 800;
+    font-variant: inherit;
+    color: rgb(255, 205, 205);
+    margin-left: 20px;
+    margin-top: -35px;
+    height: 40px;
+    width: 150px;
+}
+.letters{
+    margin-left: 18em;
+    margin-top: 10px;
+    width: 1100px;
+}
+.yellow{
+    background-color: yellow;
+    @extend .dot;
+}
+.red{
+    background-color: red;
+    @extend .dot;
+}
+.blue{
+    background-color: blue;
+    @extend .dot;
+} 
+.f .r .i .e .n .d .s{
+    @extend .st;
+    font-family: abc;
+
+}
+a{
+    color: teal;
+    font-size: 27px;
+}
+#image{
+    margin-left: 15em;
+}
+img{
+    height: 450px;
+    width: 730px;
+    margin-top: 30px;
+    margin-left: 135px;
+    box-shadow: 0 10px 20px rgba(247, 252, 0, 0.822), 
+    0 6px 6px rgba(41, 46, 17, 0.384);
+    border-radius: 25px;
+}
+.joey{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.pheobe{
+    margin-left: 34em;
+    margin-top: -216px;
+}
+.ross{
+    margin-left: 64em;
+    margin-top: -216px;
+}
+.rachel{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.chandler{
+    @extend .pheobe;
+}
+.monica{
+    @extend .ross;
+}
+p{
+    color: rgba(245, 245, 245, 0.426);
+    align-content: center;
+    margin-left: 47%;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.hh{
+    display: block;
+    color: whitesmoke;
+    margin-top: -38px;
+    margin-left: 53%;
+    font-size: 24px;
+}
